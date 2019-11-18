@@ -47,9 +47,9 @@ module.exports = new mongoose.Schema({
     },
 
     //评论
-    // comments: {
-    //     type: Array,
-    //     default: []
-    // }
+    comments: {
+        type: Array,
+        default: []
+    }
 
 });
