@@ -69,7 +69,7 @@ $(function() {
     //退出
     $('#loginout').on('click', function() {
         $.ajax({
-            url: '/api/user/logout',
+            url: '/api/user/loginout',
             success: function(result) {
                 if (!result.code) {
                     window.location.reload();
